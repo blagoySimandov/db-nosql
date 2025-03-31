@@ -1,10 +1,10 @@
 .PHONY: start stop clean
 
-start:
+start-db:
 	docker-compose up -d
 
-stop:
+stop-db:
 	docker-compose down
 
-clean:
+clean-db:
 	docker-compose down -v
