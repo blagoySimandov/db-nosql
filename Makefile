@@ -1,4 +1,4 @@
-.PHONY: start stop clean
+.PHONY: start-db stop-db clean-db
 
 start-db:
 	docker compose up -d
